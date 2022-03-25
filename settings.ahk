@@ -12,7 +12,6 @@ global freezePreviewAfter := 1 ; Freezes the preview after this many seconds (fo
 global pieMapless := False ; Sets pie chart to mapless mode when you reset. Pretty reliable
 global pieSpawner := False ; Sets pie chart to blockentites/spawners when you reset. Much less reliable than mapless
 
-
 ; Extra features
 global fullscreen := False 
 global disableTTS := False
