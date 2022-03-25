@@ -247,26 +247,6 @@ GetActiveInstanceNum() {
   return -1
 }
 
-{
-  if (pieMapless) {
-    send {Shift Down}{F3}{Shift Up}
-    Sleep, 1000
-    send {0}{0}{0}{0}{0}{0}{0}
-    Sleep, 1000
-    send {Blind}{1}{1}{1}
-    Sleep, 1000
-    sleep, %fullScreenDelay%
-  }
-if (pieSpawner) {
-    send {Shift Down}{F3}{Shift Up}
-    Sleep, 1000
-    send {0}{0}{0}{0}{0}{0}{0}
-    Sleep, 1000
-    send {Blind}{3}{1}{1}{3}
-    Sleep, 1000
-    sleep, %fullScreenDelay%
-  }
-
 ExitWorld()
 {
   if (fullscreen) {
