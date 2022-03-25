@@ -34,7 +34,6 @@ global renderDistance := 18
 global FOV := 110 ; For quake pro put 110
 global mouseSensitivity := 35
 global lowRender := 5 ; For settings change performance method
-global entityDistance := 5 ; 0.5 = 50%, 5 = 500% (recommend 500%)
 
 ; Delays
 global resumeDelay := 50 ; increase if instance isnt resetting (or have to press reset twice)
