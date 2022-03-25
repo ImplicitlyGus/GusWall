@@ -32,7 +32,7 @@ Use [this world moving macro](https://gist.github.com/Specnr/f7a5450d932a1277fdc
 
 After that it should be working. Open a ticket in the [Discord](https://discord.gg/tXxwrYw) if you have any issues.
 
-## Credit (This fork)
+## Credit
 
 - Specnr ; the original macro & gist
 - Gus (Me) ; this fork, cannibalizing code, & testing
