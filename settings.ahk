@@ -13,7 +13,7 @@ global pieMapless := False ; Sets pie chart to mapless mode when you reset. Pret
 global pieSpawner := False ; Sets pie chart to blockentites/spawners when you reset. Much less reliable than mapless
 
 ; Extra features
-global fullscreen := False 
+global borderless := False ; replaces fullscreen in this macro, just way better and less finicky
 global disableTTS := False
 global wideResets := True ; Make windows wide on reset to maximize visibility
 global widthMultiplier := 2.5 ; How wide your instances go :)
@@ -34,6 +34,7 @@ global renderDistance := 18
 global FOV := 110 ; For quake pro put 110
 global mouseSensitivity := 35
 global lowRender := 5 ; For settings change performance method
+global entityDistance := 5 ; 0.5 = 50%, 5 = 500% (recommend 500%)
 
 ; Delays
 global resumeDelay := 50 ; increase if instance isnt resetting (or have to press reset twice)
@@ -47,4 +48,3 @@ global obsDelay := 100 ; increase if not changing scenes in obs
 global settingsDelay := 10 ; increase if settings arent changing
 global lowBitmaskMultiplier := 0.75 ; for affinity, find a happy medium, max=1.0
 global tinderCheckBuffer := 5 ; When all instances cant reset, how often it checks for an instance in seconds
-
