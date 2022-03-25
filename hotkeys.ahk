@@ -5,7 +5,7 @@ RAlt::Suspend ; Pause all macros
 return
 #IfWinActive, Minecraft
   {
-    *U:: ExitWorld() ; Reset
+    *O:: ExitWorld() ; reset instance currently being used
     *CapsLock:: TinderMotion(True) ; Bg left swipe (reset)
     *+CapsLock:: TinderMotion(False) ; Bg right swipe (keep)
   }
@@ -13,10 +13,10 @@ return
 
 #IfWinActive, Fullscreen Projector
   {
-    *E::ResetInstance(MousePosToInstNumber())
-    *R::SwitchInstance(MousePosToInstNumber())
-    *F::FocusReset(MousePosToInstNumber())
-    *T::ResetAll()
+    *E::ResetInstance(MousePosToInstNumber()) ; reset selected instance on wall screen
+    *R::SwitchInstance(MousePosToInstNumber()) ; play selected instance on wall screen
+    *F::FocusReset(MousePosToInstNumber()) ; plays the selected instance on wall screen and resets all others
+    *T::ResetAll() ; resets all instances on wall screen
     +LButton::LockInstance(MousePosToInstNumber()) ; lock an instance so the above "blanket reset" functions don't reset it
 
     ; Reset keys (1-9)
