@@ -20,6 +20,17 @@ On the Fullscreen projector, you have a few hotkeys:
 
 Use [this world moving macro](https://gist.github.com/Specnr/f7a5450d932a1277fdcd6c141ad7bf6a) to delete old worlds and speed up resetting. Run it at the beginning of every session.
 
+## Background Resetting
+When in-game, you can reset other instances in the background. To do this, I'd advise:
+
+Right click on wall scene (or your verification scene) in OBS scene list
+Open a windowed projector
+Make it small, put it somewhere convenient
+Right click it -> select stay on top
+To actually background reset, lock good looking instances then reset all.
+
+I'd advise messing with the default hotkeys for background resetting in Hotkeys.ahk and finding something you're comfortable with. (Don't worry about these being bound to numpad keys and it affecting your OBS - when the macro is running, the key presses won't affect OBS)
+
 ## OBS Websocket
 
 1) Download [Python 3.7+](https://www.python.org/downloads/)
