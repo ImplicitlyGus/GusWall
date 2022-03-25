@@ -247,6 +247,12 @@ GetActiveInstanceNum() {
   return -1
 }
 
+ControlSend, ahk_parent, {Blind}{Shift Down}{F3}{Shift Up}, ahk_pid %pid%
+  Sleep, 1000
+  ControlSend, ahk_parent, {Blind}{0}{0}{0}{0}{0}{0}{0}, ahk_pid %pid%
+  Sleep, 1000
+  ControlSend, ahk_parent, {Blind}{1}{1}{1}, ahk_pid %pid%
+
 ExitWorld()
 {
   if (fullscreen) {
