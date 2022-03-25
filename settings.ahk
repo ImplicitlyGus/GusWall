@@ -8,9 +8,10 @@ global worldPreviewResetKey := "H" ; Update this to the key you set to reset in 
 global worldPreviewFreezeKey := "J" ; Update this to the key you set to freeze in world preview (default: J)
 global freezePreviewAfter := 1 ; Freezes the preview after this many seconds (for performance)
 
-; Pie chart configuration - ONLY set one of these to true or both to false
-global pieMapless := False ; Sets pie chart to mapless mode on your current instance before resetting, when you press the reset key. No delay on resetting
-global pieSpawner := False ; Sets pie chart to blockentites/spawners on your current instance before resetting, when you press the reset key. No delay on resetting
+; Pie chart configuration - ONLY set one of these to true or both to false. Somewhat reliable
+global pieMapless := False ; Sets pie chart to mapless mode when you reset. Pretty reliable
+global pieSpawner := False ; Sets pie chart to blockentites/spawners when you reset. Much less reliable than mapless
+
 
 ; Extra features
 global fullscreen := False 
