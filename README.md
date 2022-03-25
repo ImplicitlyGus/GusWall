@@ -36,3 +36,4 @@ After that it should be working. Open a ticket in the [Discord](https://discord.
 
 - Specnr ; the original macro & gist
 - Gus (Me) ; this fork, cannibalizing code, & testing
+- Ravalle ; rawalle code for borderless and entity distance setting changing
