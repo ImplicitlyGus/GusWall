@@ -7,6 +7,7 @@ global affinity := True ; A funky performance addition, enable for minor perform
 global worldPreviewResetKey := "H" ; Update this to the key you set to reset in world preview (default: H)
 global worldPreviewFreezeKey := "J" ; Update this to the key you set to freeze in world preview (default: J)
 global freezePreviewAfter := 1 ; Freezes the preview after this many seconds (for performance)
+global pieConfiguration := N ; Sets pie chart after resetting. (M = Mapless, S = Spawners/Blockentities, N = Nothing)
 
 ; Extra features
 global fullscreen := False 
