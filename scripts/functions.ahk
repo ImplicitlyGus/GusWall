@@ -292,6 +292,26 @@ ExitWorld()
       ResetSettings(pid, lowRender, false)
     else
       ResetSettings(pid, renderDistance)
+      {
+  if (pieMapless) {
+    send {Shift Down}{F3}{Shift Up}
+    Sleep, 1000
+    send {0}{0}{0}{0}{0}{0}{0}
+    Sleep, 1000
+    send {Blind}{1}{1}{1}
+    Sleep, 1000
+    sleep, %fullScreenDelay%
+  }
+if (pieSpawner) {
+    send {Shift Down}{F3}{Shift Up}
+    Sleep, 1000
+    send {0}{0}{0}{0}{0}{0}{0}
+    Sleep, 1000
+    send {Blind}{3}{1}{1}{3}
+    Sleep, 1000
+    sleep, %fullScreenDelay%
+  }
+  
     ControlSend, ahk_parent, {Blind}{Esc}, ahk_pid %pid%
     ResetInstance(idx)
     if (affinity) {
